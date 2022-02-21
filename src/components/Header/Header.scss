@@ -1,0 +1,20 @@
+.header {
+    background-color: #5C16C5;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 15px;
+    @media (max-width: 576px) {
+        text-align: center;
+    }
+
+    &__logo {
+        width: 100%;
+        max-width: 184px;
+        max-height: 24px;
+        @media (max-width: 576px) {
+            width: 140px; 
+        }
+    }
+}

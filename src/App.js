@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import './App.scss';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+// Componentss
+import Header from './components/Header/Header';
+import Trending from './Pages/Trending/Trending';
+import MovieDetails from './Pages/MovieDetails/MovieDetails';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <Header/>
+            <div className="app">
+                <Routes>
+                    <Route path="/" exact element={<Trending />} />
+                    <Route path="/details/:movie_id" exact element={<MovieDetails />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
