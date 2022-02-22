@@ -4,7 +4,6 @@
 ![image](https://img.shields.io/github/languages/top/giuliatondin/movie-app?color=%23ffd103&style=for-the-badge)
 ![image](https://img.shields.io/github/repo-size/giuliatondin/movie-app?color=%23ffd103&style=for-the-badge)
 ![image](https://img.shields.io/github/license/giuliatondin/movie-app?color=%23ffd103&style=for-the-badge)
-![image](https://img.shields.io/github/last-commit/giuliatondin/movie-app?color=%23ffd103&style=for-the-badge)
 
 <img src="movie-app-banner.png" alt="Banner do repositório">
 
