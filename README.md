@@ -27,6 +27,7 @@ Before start, make sure you've met the following requirements:
 After installing the requirements, follow these steps to run the application on your computer:
 
 * Open the project folder on cmd;
+* Run `npm install` or `yarn`;
 * Run `npm start` or `yarn start`.
 
 You can make the desired changes in the application and view them in the browser localhost. 
